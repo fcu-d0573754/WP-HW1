@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>register</title>
+</head>
+<body>
+  <h1>使用者註冊</h1>
+  <form method="post" action="http://www.deitel.com">
+      <p>
+        <lable>賬號
+          <input name="id" type="text" placeholder="請輸入您的賬號" >
+        </label>
+      </p>
+      <p>
+        <lable>密碼
+          <input name="password" type="password" >
+        </label>
+      </p>
+      <p>
+        <lable>電子郵件
+          <input name="email" type="email" placeholder="請輸入您的電子郵件">
+        </label>
+      </p>
+      <p>
+        <lable>生日
+          <input  name="birth" type="radio" value="male" checked>男
+          <input name="birth" type="radio" value="female">女
+          <input name="birth" type="radio" value="other">其他
+        </lable>
+      </p>
+      <p>
+        <lable>喜好
+          <input  name="like" type="checkbox" value="ball" >打球
+          <input  name="like" type="checkbox" value="game" >打電動
+          <input  name="like" type="checkbox" value="shop" >購物
+          <input  name="like" type="checkbox" value="other" >其它
+        </lable>
+      </p>
+      <p>
+        <lable>年級
+          <select name="grade">
+            <option value="大一">大一</option>
+            <option value="大二">大二</option>
+            <option value="大三">大三</option>
+            <option value="大四">大四</option>
+            <option value="其他">其它</option>
+          </select>
+        </lable>
+      </p>
+      <p>
+        <input type="submit" value="送出">
+        <input type="reset" value="重設">
+      </p>
+
+</body>
+</html>
